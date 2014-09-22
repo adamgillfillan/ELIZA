@@ -16,12 +16,6 @@ rules = {
         'I guess my work here is done',
         'I am really good at this psychologist thing'
     ],
-    '\\bALWAYS\\b': [
-        'Can you come up with just one time this happened',
-    ],
-    '\\bALL\\b': [
-        'In what way'
-    ],
     '\\bDREAM\\b':[
         'I\'m not a dream interpreter',
         'Go talk to Freud',
@@ -40,18 +34,26 @@ rules = {
         'Great, I\'ll tell your dad when we are done here',
         'I am your father'
     ],
-    '\\bCAN\'T\\b':[
-        'Only the weak think they can\'t'
-        'You know what I cant not do--be awesome'
-    ],
     '\\bFEEL\\b|\\bFEELING\\b':[
         'Tell someone who cares how you feel',
         'I bet your mom cares'
         'I don\'t really care, #sorrynotsorry'
     ],
+
+    '\\bCAN\'T\\b':[
+        'Only the weak think they can\'t'
+        'You know what I cant not do--be awesome'
+    ],
     '\\bSOMEONE|SOMETHING\\b':[
         'Can you be more specific',
         'Please tell me more',
         'Go ahead and share more'
+    ],
+    '\\bALWAYS\\b': [
+        'Can you come up with just one time this happened',
+    ],
+    '\\bALL\\b': [
+        'In what way'
     ]
+
 }
