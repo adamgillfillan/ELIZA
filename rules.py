@@ -44,7 +44,6 @@ rules = {
         'I bet your mom cares'
         'I don\'t really care, #sorrynotsorry'
     ],
-
     '\\bCAN\'T\\b':[
         'Only the weak think they can\'t'
         'You know what I cant not do--be awesome'
