@@ -78,9 +78,7 @@ class Eliza():
             p = re.compile(pattern)
             match = p.search(" ".join(words))
             if match:
-                # TODO: Multiple matches can occur in 1 input. need to account for this
                 matched.append([match.group(0), random.choice(replacement)])
-                #print(matched)
         print(matched)
         if len(matched) > 0:
             return [word for word in matched[0][1]]
