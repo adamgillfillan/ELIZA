@@ -2,6 +2,7 @@ __author__ = 'Adam'
 from rules import *
 import time
 import re
+import random
 
 
 class Eliza():
@@ -39,7 +40,7 @@ class Eliza():
             ('ME', 'YOU'),
             ('MY', 'YOUR'),
             ('AM', 'ARE'),
-            ('ARE', 'AM')
+            ('ARE', 'AM'),
         ]
 
         return [self.replace_words(word, replacements) for word in words]
@@ -63,10 +64,12 @@ class Eliza():
         return user_input
 
     def print_response(self, words):
-        #asdfd
+        """
+            Create a response message and print it for the user to see
+        """
         response_message = self.create_response(words)
         print("Eliza: ", end="")
-        print(" ".join(response_message).upper())
+        print("".join(response_message).upper())
 
     @staticmethod
     def create_response(words):
@@ -74,7 +77,8 @@ class Eliza():
             p = re.compile(pattern)
             match = p.search(" ".join(words))
             if match:
-                return [word for word in replacement]
+                # TODO: Multiple matches can occur in 1 input. need to account for this
+                return [word for word in random.choice(replacement)]
         return words
 
 
