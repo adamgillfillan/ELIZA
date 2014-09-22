@@ -1,9 +1,11 @@
 __author__ = 'Adam'
-# A module to hold the dictionary of rules
-# Each rule entry is a pattern that is used by eliza.py to match the input text of the user
-# If a match is found, a value from the matched key is chosen
+# A module to hold the dictionary of rules.
+#
+# Each rule entry is a pattern that is used by eliza.py to match the input text of the user.
+# If a match is found, a value from the matched key is chosen.
+#
 # Ranking of rules is in descending order (highest first) - this is needed if 2 matches are found in 1 input.
-#   In this case, the more important pattern is used
+# In this case, the more important pattern is used
 
 rules = {
     "\\bSAD\\b|\\bDEPRESSED\\b|\\bUNHAPPY\\b": [
