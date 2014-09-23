@@ -15,7 +15,7 @@ rules = {
     ],
     '\\bMAD\\b|\\bANGRY\\b': [
         'Do you need a wall to punch',
-        'Sometimes I get mad too',
+        'Sometimes I get mad too'
     ],
     '\\bHAPPY\\b|\\bJOY\\b': [
         'I guess my work here is done',
@@ -32,7 +32,7 @@ rules = {
         'Well I guess you are talking to yourself then...weirdo'
     ],
     '\\bMOM\\b|\\bMOTHER\\b':[
-        'We are talking about you, not your mom'
+        'We are talking about you, not your mom',
         'My mom was a psychologist, too'
     ],
     '\\bDAD\\b|\\bFATHER\\b':[
@@ -41,11 +41,11 @@ rules = {
     ],
     '\\bFEEL\\b|\\bFEELING\\b':[
         'Tell someone who cares how you feel',
-        'I bet your mom cares'
+        'I bet your mom cares',
         'I don\'t really care, #sorrynotsorry'
     ],
     '\\bCAN\'T\\b':[
-        'Only the weak think they can\'t'
+        'Only the weak think they can\'t',
         'You know what I cant not do--be awesome'
     ],
     '\\bSOMEONE|SOMETHING\\b':[

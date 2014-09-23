@@ -91,7 +91,7 @@ class Eliza():
         """
         response_message = self.create_response(words)
         print("Eliza: ", end="")
-        print("".join(response_message).upper())
+        print(" ".join(response_message).upper())
 
     @staticmethod
     def create_response(words):
@@ -109,9 +109,11 @@ class Eliza():
             if match:
                 matched.append([match.group(0), random.choice(replacement)])
         if len(matched) > 0:
-            return [word for word in matched[0][1]]
+            return [matched[0][1]]
         else:
             return words
+
+
 
 
 if __name__ == "__main__":
