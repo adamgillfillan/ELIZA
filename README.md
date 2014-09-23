@@ -3,7 +3,7 @@ ELIZA
 
 Eliza is an amusing interpretation of an agent that simulates a Rogerian psychologist.
 
-Eliza: Hi, my name is Eliza. I am a Rogerian psychologist.
+Eliza: Hi, my name is Eliza. I am a Rogerian psychologist.\n
 Eliza: Today I will help you with your problems.
 Eliza: What is your name?
 Adam
