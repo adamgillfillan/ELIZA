@@ -18,7 +18,6 @@ import random
 
 
 class Eliza():
-    # Hi, comment.
     """
         An agent that simulates an amusing interpretation of a Rogerian psychologist.
     """
